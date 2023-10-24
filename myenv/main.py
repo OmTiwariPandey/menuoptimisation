@@ -1,17 +1,17 @@
-''' Menu Optimisation Software'''
+''' Restaurant AI'''
 
 from bardapi import Bard
 import streamlit as st
 from streamlit_chat import message
 import os
 #hi
-os.environ["_BARD_API_KEY"] = "cQi3Gz8Kmp9LZR7YrGrj1yvqlJWU0HYU9NdiJKTra3eRdVP_nPTQhxYU3yDJK22So-sz9g."
+os.environ["_BARD_API_KEY"] = "cQi3G8Durxo8xAfOEkI8L7HAlJ-NgYc6Q-lWswBJsqu5bjTQ_oPB8yQ-O0vVtLuKhvX5VA."
 
 
 # message = input('Enter Your prompt : ')
 # print(Bard().get_answer(str(message))['content'])
 
-st.title("Menu Optimisation Function")
+st.title("Restaurant AI")
 
 def response_api(prompt):
     message = Bard().get_answer(str(prompt))['content']
