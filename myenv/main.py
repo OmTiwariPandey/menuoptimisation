@@ -5,6 +5,7 @@ import streamlit as st
 from streamlit_chat import message
 import os
 #hi
+
 os.environ["_BARD_API_KEY"] = 'cQi3Gy1g32493CiZgPbAt1Khj8MB1pW7ZYXFHBclitp3rRkHSOM5dSzv51au9FfnxzDwcQ.'
 
 
