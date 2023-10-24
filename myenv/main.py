@@ -5,7 +5,7 @@ import streamlit as st
 from streamlit_chat import message
 import os
 #hi
-os.environ["_BARD_API_KEY"] = "cQi3G8Durxo8xAfOEkI8L7HAlJ-NgYc6Q-lWswBJsqu5bjTQ_oPB8yQ-O0vVtLuKhvX5VA."
+os.environ["_BARD_API_KEY"] = 'cQi3Gy1g32493CiZgPbAt1Khj8MB1pW7ZYXFHBclitp3rRkHSOM5dSzv51au9FfnxzDwcQ.'
 
 
 # message = input('Enter Your prompt : ')
